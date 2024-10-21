@@ -1,11 +1,11 @@
 第1关：基本测试       根据S-DES算法编写和调试程序，提供GUI解密支持用户交互。输入可以是8bit的数据和10bit的密钥，输出是8bit的密文。
-![image](https://github.com/user-attachments/assets/10460586-be04-4738-bbe8-fc78aa701448)
+![3c6b807bace2e66525b238f283a9415f](https://github.com/user-attachments/assets/510e6b64-8a7e-4016-840b-b131fadd22c1)
 
 第2关：交叉测试考虑到是算法标准，所有人在编写程序的时候需要使用相同算法流程和转换单元(P-Box、S-Box等)，以保证算法和程序在异构的系统或平台上都可以正常运行。设有A和B两组位同学(选择相同的密钥K)；则A、B组同学编写的程序对明文P进行加密得到相同的密文C；或者B组同学接收到A组程序加密的密文C，使用B组程序进行解密可得到与A相同的P。
-![image](https://github.com/user-attachments/assets/bb42c2a8-cc0a-4381-970e-f281ceae3756)
+![a4fb2aa8a2021e7e069fe86e2d457473](https://github.com/user-attachments/assets/08699faf-2090-4767-8636-9f8ea99ea7ed)
 
 第3关：扩展功能考虑到向实用性扩展，加密算法的数据输入可以是ASII编码字符串(分组为1 Byte)，对应地输出也可以是ACII字符串(很可能是乱码)。
-![image](https://github.com/user-attachments/assets/3ae0271b-56c8-49cb-adee-67e3e8f39495)
+![1ffdb3fce74a153578fd72bbea27e3d9](https://github.com/user-attachments/assets/d98a1650-4d37-4273-8b41-010254aaf680)
 
 第4关：暴力破解假设你找到了使用相同密钥的明、密文对(一个或多个)，请尝试使用暴力破解的方法找到正确的密钥Key。在编写程序时，你也可以考虑使用多线程的方式提升破解的效率。请设定时间戳，用视频或动图展示你在多长时间内完成了暴力破解。
 ![image](https://github.com/user-attachments/assets/1add008e-f3c0-4fec-8ce2-edeb69d4eccb)
